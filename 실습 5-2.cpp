@@ -2,8 +2,9 @@
 using namespace std;
 
 class Oval {
-public:
+private:
 	int width, height;
+public:
 	Oval();
 	Oval(int w, int h);
 	~Oval();

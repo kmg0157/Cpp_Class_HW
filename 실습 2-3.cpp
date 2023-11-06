@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-bool bigger(int a, int b, int& big)
+bool bigger(int a, int b, int& big)	//레퍼런스 사용(big의 변경된 값을 메인문에 적용하기 위해)
 {
 	if (a > b) {
 		big = a;

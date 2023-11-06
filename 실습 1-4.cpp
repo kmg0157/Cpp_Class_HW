@@ -6,7 +6,7 @@ int main() {
 	cout << "문자들을 입력하라(100개 미만)." << endl;
 	cin.getline(c, 100);
 
-	for (int i = 0; i < 100; i++)
+	for (int i = 0; i < sizeof(c)/sizeof(char); i++)
 	{
 		if (c[i] == 'x')
 		{

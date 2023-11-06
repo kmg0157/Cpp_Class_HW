@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-char& find(char a[], char c, bool& success)
+char& find(char a[], char c, bool& success)	//리턴하는 값이 레퍼런스
 {
 	for (int i = 0; i < sizeof(a) / sizeof(char); i++) 
 	{
