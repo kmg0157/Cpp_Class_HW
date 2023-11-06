@@ -4,7 +4,7 @@ using namespace std;
 double biggest(double arr[],int size)
 {
 	double max = arr[0];
-	for (int i = 1; i < size-1; i++)
+	for (int i = 1; i < size; i++)
 	{
 		if (max < arr[i])
 		{
